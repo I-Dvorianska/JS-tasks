@@ -1,4 +1,8 @@
 'use strict';
+
+// MODULE 1
+
+
 // function getSubscriptionPrice(type) {
 //   let price;
  
@@ -67,14 +71,48 @@
 
 // function checkForSpam(message) {
 //   let result;
-//   // Пиши код ниже этой строки
+
 //  let messagenormalize = message.toLowerCase();
 //  if (messagenormalize.includes('spam') || messagenormalize.includes('sale')) {
 //   result = true; 
 //  } else {
 //  result = false;
 //  }
-//   // Пиши код выше этой строки
+
 //   return result;
 // }
 
+// MODULE 2
+
+// 2
+
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = 'jqueryismyjam'; 
+
+//  if (password === ADMIN_PASSWORD) {
+//    return 'Добро пожаловать!'}
+//    return 'Доступ запрещен, неверный пароль!';
+// }
+
+
+// 3
+
+// function checkStorage(available, ordered) {
+
+//   if (ordered === 0) {
+//     return 'В заказе еще нет товаров';
+//   } 
+//   if (ordered > available) {
+//     return 'Слишком большой заказ, на складе недостаточно товаров!';
+//   } 
+//     return 'Заказ оформлен, с вами свяжется менеджер';
+// }
+
+
+// 4
+
+// const fruits = ['яблоко', 'слива', 'груша', 'апельсин'];
+
+// const firstElement = fruits[0];
+// const secondElement = fruits[1];
+// const lastElement = fruits[fruits.length-1];
