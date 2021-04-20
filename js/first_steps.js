@@ -116,3 +116,38 @@
 // const firstElement = fruits[0];
 // const secondElement = fruits[1];
 // const lastElement = fruits[fruits.length-1];
+
+
+// 9
+
+// Напиши функцию getExtremeElements(array) которая принимает один параметр array -
+//     массив элементов произвольной длины.Функция должна возвращать
+// массив из двух элементов - первого и последнего элемента параметра array.
+
+// function getExtremeElements(array) {
+//     // Пиши код ниже этой строки
+//  const newArray = [];
+//    newArray.push(array[0]);
+//   newArray.push(array[array.length-1]);
+                           
+// return newArray;
+//     // Пиши код выше этой строки
+//   }
+
+
+                    // // сумма четных чисел
+
+                    // const numbers = [1, 6, 10, 13, 15, 18, 23, 33, 44, 50, ];
+                    // let total = 0;
+
+                    // for (let i = 0; i < numbers.length; i += 1) {
+                    //     console.log(numbers[i]);
+    
+                    //     if (numbers[i] % 2 === 0) {
+        
+                    //         console.log('yes');
+                    //         total += numbers[i];
+                    //     }
+   
+                    // }
+                    //  console.log('total:',total);
