@@ -151,3 +151,229 @@
    
                     // }
                     //  console.log('total:',total);
+
+// 10
+
+// function splitMessage(message, delimeter) {
+//   let words;
+//   // Пиши код ниже этой строки
+//    words = message.split(`${delimeter}`);
+  
+//   // Пиши код выше этой строки
+//   return words;
+// }
+
+// console.log(splitMessage('Buenos dias',(' ')))
+
+
+// 11
+
+// Сервису гравировки украшений нужна функция,
+// которая бы автоматически считала цену гравировки,
+// в зависимости от количества слов и цены за слово.
+
+// Объявлена функция calculateEngravingPrice(message, pricePerWord).
+// Эта функция принимает строку, состоящую из слов разделённых
+// только пробелами(параметр message) и цену гравировки одного
+// слова(параметр pricePerWord).
+
+// Напиши тело функции, чтобы она возвращала общую стоимость гравировки всех слов в строке.
+
+// function calculateEngravingPrice(message, pricePerWord) {
+//     let totalPrice = 0;
+//     let words;
+
+//     words = message.split(' ');
+//     totalPrice = words.length * pricePerWord;
+   
+//     return totalPrice;
+// }
+
+// console.log(calculateEngravingPrice('te quiero', 5));
+
+
+// 12
+
+// function makeStringFromArray(array, delimeter) {
+//   let string;
+ 
+//  string = array.join(`${delimeter}`);
+ 
+//   return string;
+// }
+
+// 13
+
+// function slugify(title) {
+  
+//  const smallLetters = title.toLowerCase().split(' ');
+//  const slug = smallLetters.join('-');
+ 
+//  return slug;
+  
+// }
+
+// console.log(slugify('me voy a casa'));
+
+
+
+// 14
+
+// const fruits = ['яблоко', 'слива', 'груша', 'апельсин', 'банан'];
+// // Пиши код ниже этой строки
+// const firstTwoEls = fruits.slice(0,2);
+// const nonExtremeEls = fruits.slice(1,-1);
+// const lastThreeEls = fruits.slice(-3);
+
+// 15
+
+// const oldClients = ['Манго', 'Аякс', 'Поли', 'Киви'];
+// const newClients = ['Персик', 'Хьюстон'];
+
+// const allClients = oldClients.concat(newClients); 
+
+
+// 16
+
+// function makeArray(firstArray, secondArray, maxLength) {
+    
+//     let newArray = [];
+    
+//   newArray = firstArray.concat(secondArray).slice(0,maxLength);
+     
+//   return newArray;
+    
+//   }
+  
+// makeArray([2, 4, 7, 9, 23, 64, 1], [2, 6, 8], 10);
+
+// 17
+
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i +=1 ) { // Дополни эту строку
+//   console.log(i);
+// }
+
+// 18
+
+
+// function calculateTotal(number) {
+  
+//   let total = 0;
+  
+// for (let i = 1; i <= number; i += 1) {
+  
+// total += i;
+
+// }
+//   return total;
+  
+// }
+
+// console.log(calculateTotal(3));
+
+// 19
+
+// const fruits = ['яблоко', 'слива', 'груша', 'апельсин'];
+
+// for (let i = 0; i < fruits.length; i+=1) { // Дополни эту строку
+//   const fruit = fruits[i]; // Дополни эту строку
+//   console.log(fruit);
+// }
+
+// 20
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Пиши код ниже этой строки
+//     for (let i = 0; i < order.length; i+=1){
+//         total += order[i];
+// }
+//   // Пиши код выше этой строки
+//   return total;
+// }
+
+// console.log(calculateTotalPrice([1,2,3]));
+
+// 21
+
+// function findLongestWord(string) {
+  
+//   let longestWord = '';
+  
+//    const stringArray = string.split(' ');
+    
+    
+//     for (let i = 0; i < stringArray.length; i += 1) {
+        
+      
+//       if (stringArray[i].length > longestWord.length) {
+//           longestWord = stringArray[i];
+        
+//   }
+//   }
+//     return longestWord;
+// }
+
+// console.log(findLongestWord('May the force be with you'));
+
+// 22
+
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   // Пиши код ниже этой строки
+// for (let i = min; i <= max; i+=1) {
+// numbers.push(i);
+// }
+//   // Пиши код выше этой строки
+//   return numbers;
+// }
+
+// console.log(createArrayOfNumbers(1, 3));
+
+// 23
+
+// function filterArray(numbers, value) {
+//     let newArray = [];
+    
+//     for (const number of numbers) {
+//         if (number > value) {
+//             newArray.push(number);
+//         }
+//     }
+//     return newArray;
+// }
+
+// 24
+
+
+// function checkFruit(fruit) {
+//   const fruits = ['яблоко', 'слива', 'груша', 'апельсин'];
+  
+
+
+//   return fruits.includes(fruit); // Дополни эту строку
+// }
+
+25
+
+function getCommonElements(array1, array2) {
+    let newArray = [];
+
+    for (const element of array1) {
+        if (array2.includes(element)) {
+            newArray.push(element);
+        }
+    }
+
+    for (const element of array2) {
+        if (array1.includes(element)) {
+            newArray.push(element);
+        }
+    }
+
+    return newArray;
+}
+
