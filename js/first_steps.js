@@ -5,7 +5,7 @@
 
 // function getSubscriptionPrice(type) {
 //   let price;
- 
+
 //   // Пиши код ниже этой строки
 
 //  switch (type) { // Дополни эту строку
@@ -129,28 +129,28 @@
 //  const newArray = [];
 //    newArray.push(array[0]);
 //   newArray.push(array[array.length-1]);
-                           
+
 // return newArray;
 //     // Пиши код выше этой строки
 //   }
 
 
-                    // // сумма четных чисел
+// // сумма четных чисел
 
-                    // const numbers = [1, 6, 10, 13, 15, 18, 23, 33, 44, 50, ];
-                    // let total = 0;
+// const numbers = [1, 6, 10, 13, 15, 18, 23, 33, 44, 50, ];
+// let total = 0;
 
-                    // for (let i = 0; i < numbers.length; i += 1) {
-                    //     console.log(numbers[i]);
-    
-                    //     if (numbers[i] % 2 === 0) {
-        
-                    //         console.log('yes');
-                    //         total += numbers[i];
-                    //     }
-   
-                    // }
-                    //  console.log('total:',total);
+// for (let i = 0; i < numbers.length; i += 1) {
+//     console.log(numbers[i]);
+
+//     if (numbers[i] % 2 === 0) {
+
+//         console.log('yes');
+//         total += numbers[i];
+//     }
+
+// }
+//  console.log('total:',total);
 
 // 10
 
@@ -158,7 +158,7 @@
 //   let words;
 //   // Пиши код ниже этой строки
 //    words = message.split(`${delimeter}`);
-  
+
 //   // Пиши код выше этой строки
 //   return words;
 // }
@@ -185,7 +185,7 @@
 
 //     words = message.split(' ');
 //     totalPrice = words.length * pricePerWord;
-   
+
 //     return totalPrice;
 // }
 
@@ -196,21 +196,21 @@
 
 // function makeStringFromArray(array, delimeter) {
 //   let string;
- 
+
 //  string = array.join(`${delimeter}`);
- 
+
 //   return string;
 // }
 
 // 13
 
 // function slugify(title) {
-  
+
 //  const smallLetters = title.toLowerCase().split(' ');
 //  const slug = smallLetters.join('-');
- 
+
 //  return slug;
-  
+
 // }
 
 // console.log(slugify('me voy a casa'));
@@ -236,15 +236,15 @@
 // 16
 
 // function makeArray(firstArray, secondArray, maxLength) {
-    
+
 //     let newArray = [];
-    
+
 //   newArray = firstArray.concat(secondArray).slice(0,maxLength);
-     
+
 //   return newArray;
-    
+
 //   }
-  
+
 // makeArray([2, 4, 7, 9, 23, 64, 1], [2, 6, 8], 10);
 
 // 17
@@ -260,16 +260,16 @@
 
 
 // function calculateTotal(number) {
-  
+
 //   let total = 0;
-  
+
 // for (let i = 1; i <= number; i += 1) {
-  
+
 // total += i;
 
 // }
 //   return total;
-  
+
 // }
 
 // console.log(calculateTotal(3));
@@ -300,18 +300,18 @@
 // 21
 
 // function findLongestWord(string) {
-  
+
 //   let longestWord = '';
-  
+
 //    const stringArray = string.split(' ');
-    
-    
+
+
 //     for (let i = 0; i < stringArray.length; i += 1) {
-        
-      
+
+
 //       if (stringArray[i].length > longestWord.length) {
 //           longestWord = stringArray[i];
-        
+
 //   }
 //   }
 //     return longestWord;
@@ -337,7 +337,7 @@
 
 // function filterArray(numbers, value) {
 //     let newArray = [];
-    
+
 //     for (const number of numbers) {
 //         if (number > value) {
 //             newArray.push(number);
@@ -351,29 +351,78 @@
 
 // function checkFruit(fruit) {
 //   const fruits = ['яблоко', 'слива', 'груша', 'апельсин'];
-  
+
 
 
 //   return fruits.includes(fruit); // Дополни эту строку
 // }
 
-25
+// 25
 
-function getCommonElements(array1, array2) {
-    let newArray = [];
+// function getCommonElements(array1, array2) {
+//     let newArray = [];
 
-    for (const element of array1) {
-        if (array2.includes(element)) {
-            newArray.push(element);
-        }
-    }
+//     for (const element of array1) {
+//         if (array2.includes(element)) {
+//             newArray.push(element);
+//         }
+//     }
 
-    for (const element of array2) {
-        if (array1.includes(element)) {
-            newArray.push(element);
-        }
-    }
+//     return newArray;
+// }
 
-    return newArray;
-}
+// console.log(getCommonElements([1, 2, 3], [2, 4]));
 
+// 26
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Пиши код ниже этой строки
+
+//   for (const element of order) {
+//     total += element;
+//   }
+
+//   // Пиши код выше этой строки
+//   return total;
+// }
+
+// 27
+
+// function filterArray(numbers, value) {
+//   // Пиши код ниже этой строки
+//   const filteredNumbers = [];
+
+//   for (const number of numbers) {
+    
+
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   }
+
+//   return filteredNumbers;
+//   // Пиши код выше этой строки
+// }
+
+// 28
+
+// const a = 3 % 1;
+// const b = 4 % 3;
+// const c = 11 % 4;
+// const d = 12 % 7;
+// const e = 8 % 3;
+
+// 29
+
+// function getEvenNumbers(start, end) {
+//     let newArray = [];
+
+//     for (let i = start; i <= end; i += 1) {
+//         if (i % 2 === 0) {
+//             newArray.push(i);
+//         }
+//     }
+//     return newArray;
+// }
+// console.log(getEvenNumbers(1, 10));
