@@ -471,34 +471,10 @@
 //   // Пиши код выше этой строки
 // }
 
-// Not GOIT
-
-// CONTINUE
-
-// for (let i = 1; i <= 15; i += 1){
-
-// // список цифр без 5 і без 13
-
-//     if (i === 5) {
-//         continue;
-//     }
-//     if(i === 13){
-//         continue;
-//     }
-
-//     console.log(i);
-// }
 
 
-// ARRAY.FILTER!!!!
 
-// function counter (element) {
-//     return element >= 20;
-// }
-// const numbers = [1, 6, 10, 56, 13, 15, 18, 23, 33, 44, 50];
 
-// const newNumbers = numbers.filter(counter);
-// console.log(newNumbers);
 
 
 // MODULE 3
@@ -994,3 +970,7 @@
 
 //     return newOb;
 // }
+
+// 
+
+ 
