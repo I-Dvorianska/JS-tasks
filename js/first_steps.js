@@ -971,6 +971,180 @@
 //     return newOb;
 // }
 
-// 
+// 31
 
+// Пиши код ниже этой строки
+// function add(...args) {
+//   let sum = 0;
+  
+//   for(const number of args) {
+//   sum += number;
+//   }
+//   return sum;
+//   // Пиши код выше этой строки
+// }
+
+// 32
+
+// // Пиши код ниже этой строки
+// function addOverNum(firstElement,...args) {
+//   let total = 0;
+
+//   for (const arg of args) {
+//     if(arg > firstElement){
+//     total += arg;
+//   }};
+
+//   return total;
+//   // Пиши код выше этой строки
+// }
+
+// 33
  
+// // Пиши код ниже этой строки
+// function findMatches(array,...args) {
+//   const matches = []; // Не изменяй эту строку
+// for (const arg of args){
+// 	for (const element of array) {
+//     if (arg === element) {
+//     matches.push(arg);
+//     }
+//     }
+// }
+//   // Пиши код выше этой строки
+//   return matches;
+// }
+
+// 34
+
+// const bookShelf = {
+//   // Пиши код ниже этой строки
+//   books: ['Последнее королевство', 'Страж снов'],
+//   getBooks() {
+//     return 'Возвращаем все книги';
+//   },
+//   addBook(bookName) {
+//     return `Добавляем книгу ${bookName}`;
+//   },
+//   removeBook(bookName) {
+//   return `Удаляем книгу ${bookName}`;
+//   },
+  
+//   updateBook(oldName, newName) {
+//   return `Обновляем книгу ${oldName} на ${newName}`;
+//   }
+//   // Пиши код выше этой строки
+// };
+
+// 35
+
+// const bookShelf = {
+//   books: ['Последнее королевство', 'Мгла', 'Страж снов'],
+//   updateBook(oldName, newName) {
+//     // Пиши код ниже этой строки
+// 	const bookIndex = this.books.indexOf(oldName);
+// 	this.books.splice(bookIndex, 1, newName);
+//     return this.books;
+//     // Пиши код выше этой строки
+//   },
+// };
+
+// console.log(bookShelf.updateBook('Мгла', 'Хроники подземелий'));
+
+// 36
+
+// const atTheOldToad = {
+//   // Пиши код ниже этой строки
+//   potions: [],
+//   // Пиши код выше этой строки
+// };
+
+// 37
+
+// const atTheOldToad = {
+//   // Пиши код ниже этой строки
+//   potions: ['Зелье скорости', 'Дыхание дракона', 'Каменная кожа'],
+//   getPotions() {
+//   return this.potions;
+//   },
+//   // Пиши код выше этой строки
+// };
+// console.log(atTheOldToad.getPotions());
+
+// 38
+
+// const atTheOldToad = {
+//   potions: ['Зелье скорости', 'Дыхание дракона', 'Каменная кожа'],
+//   addPotion(potionName) {
+//     // Пиши код ниже этой строки
+//     this.potions.push(potionName);
+//     // Пиши код выше этой строки
+//   },
+// };
+
+// 39
+
+// const atTheOldToad = {
+//   potions: ["Зелье скорости", "Дыхание дракона", "Каменная кожа"],
+//   removePotion(potionName) {
+//     // Пиши код ниже этой строки
+//     const deletedIndex = this.potions.indexOf(potionName);
+//     this.potions.splice(deletedIndex, 1);
+//     // Пиши код выше этой строки
+//   },
+// };
+
+// 40
+
+// const atTheOldToad = {
+//   potions: ['Зелье скорости', 'Дыхание дракона', 'Каменная кожа'],
+//   updatePotionName(oldName, newName) {
+//     // Пиши код ниже этой строки
+//  const potionIndex = this.potions.indexOf(oldName);
+//     this.potions.splice(potionIndex, 1, newName);
+//     // Пиши код выше этой строки
+//   },
+// };
+
+41
+
+const atTheOldToad = {
+    potions: [
+        { name: 'Зелье скорости', price: 460 },
+        { name: 'Дыхание дракона', price: 780 },
+        { name: 'Каменная кожа', price: 520 },
+    ],
+    // Пиши код ниже этой строки
+     getPotions() {
+    
+    return this.potions;
+  },
+};
+//   addPotion(potionName) {
+//     if (this.potions.includes(potionName)) {
+//       return `Зелье ${potionName} уже есть в инвентаре!`;
+//     }
+
+//     this.potions.push(potionName);
+//   },
+//   removePotion(potionName) {
+//     const potionIndex = this.potions.indexOf(potionName);
+
+//     if (potionIndex === -1) {
+//       return `Зелья ${potionName} нет в инвентаре!`;
+//     }
+
+//     this.potions.splice(potionIndex, 1);
+//   },
+//   updatePotionName(oldName, newName) {
+//     const potionIndex = this.potions.indexOf(oldName);
+
+//     if (potionIndex === -1) {
+//       return `Зелья ${oldName} нет в инвентаре!`;
+//     }
+
+//     this.potions.splice(potionIndex, 1, newName);
+//   },
+//   // Пиши код выше этой строки
+// };
+console.log(atTheOldToad.getPotions());
