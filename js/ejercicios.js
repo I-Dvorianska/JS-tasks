@@ -1,4 +1,4 @@
-1) Напиши скрипт, который, для объекта user,
+// 1) Напиши скрипт, который, для объекта user,
 // последовательно:
 
 // a. добавляет поле mood со значением 'happy'
@@ -63,7 +63,34 @@
 //     console.log(i);
 // }
 
+// const countNumbers = function (a, b, callback) {
+//     const result = callback(a, b);
+//     return result;
+// };
+
+
+
+// console.log(countNumbers(3, 3, (r, t) => r + t));
 
 
 
 
+// NO LO HE HECHO
+
+// function isValidWalk(walk) {
+//   let sameElements = [];
+//   //insert brilliant code here
+//   for (const element of walk)
+    
+//   if (element[0] === element) {
+//       sameElements.push(element);
+      
+//       sameElements.length = 5;
+//       console.log(sameElements);
+//   };
+//  if(walk.length === 10 && walk.includes([sameElements])) {
+//       return true;
+//   }
+//    return false;
+// };
+// console.log(isValidWalk(['n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 's']));
