@@ -94,3 +94,42 @@
 //    return false;
 // };
 // console.log(isValidWalk(['n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 's']));
+
+
+// const Animals = function ({ name, type, age } = {}) {
+//     this.name = name,
+//         this.type = type,
+//         this.age = age,
+//         this.changeName = function (newName){
+//         return this.name = newName;
+//     }
+// };
+
+// const animal = new Animals({ name:'Nemo', type:'cat', age:1 });
+// console.log(animal);
+// animal.changeName('Mikey');
+// console.log(animal);
+
+// Animals.prototype.showInf = function () {
+//     console.log(`${this.type}'s name is ${this.name} and he has ${this.age} years old`);
+// };
+
+// animal.showInf();
+
+function arrayDiff(a, b) {
+
+   
+
+    for (const number of a) {
+ const index = a.indexOf(number);
+     
+        // console.log(number);
+         if (b.includes(number));
+       
+       
+        return a.splice(index,2);
+    
+    }
+    return a;
+};
+// console.log(arrayDiff([3, 4], [3]));
