@@ -75,61 +75,20 @@
 
 
 
-// NO LO HE HECHO
+// function arrayDiff(a, b) {
 
-// function isValidWalk(walk) {
-//   let sameElements = [];
-//   //insert brilliant code here
-//   for (const element of walk)
-    
-//   if (element[0] === element) {
-//       sameElements.push(element);
-      
-//       sameElements.length = 5;
-//       console.log(sameElements);
-//   };
-//  if(walk.length === 10 && walk.includes([sameElements])) {
-//       return true;
-//   }
-//    return false;
-// };
-// console.log(isValidWalk(['n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 's']));
-
-
-// const Animals = function ({ name, type, age } = {}) {
-//     this.name = name,
-//         this.type = type,
-//         this.age = age,
-//         this.changeName = function (newName){
-//         return this.name = newName;
-//     }
-// };
-
-// const animal = new Animals({ name:'Nemo', type:'cat', age:1 });
-// console.log(animal);
-// animal.changeName('Mikey');
-// console.log(animal);
-
-// Animals.prototype.showInf = function () {
-//     console.log(`${this.type}'s name is ${this.name} and he has ${this.age} years old`);
-// };
-
-// animal.showInf();
-
-function arrayDiff(a, b) {
-
-   
-
-    for (const number of a) {
- const index = a.indexOf(number);
+//     for (const number of a) {
+ 
      
-        // console.log(number);
-         if (b.includes(number));
+//         console.log(number);
+//          if (b.includes(number));
+//        const index = a.indexOf(number);
        
-       
-        return a.splice(index,2);
+//         return a.splice(index,1);
     
-    }
-    return a;
-};
-// console.log(arrayDiff([3, 4], [3]));
+//     }
+//     return a;
+// };
+//  console.log(arrayDiff([3, 4], [3]));
+
+
