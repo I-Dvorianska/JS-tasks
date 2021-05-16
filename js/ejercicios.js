@@ -73,22 +73,50 @@
 // console.log(countNumbers(3, 3, (r, t) => r + t));
 
 
+// option 1
 
+// function findShort(s){
+//  const arr = (s.split(' '));
 
-// function arrayDiff(a, b) {
-
-//     for (const number of a) {
- 
-     
-//         console.log(number);
-//          if (b.includes(number));
-//        const index = a.indexOf(number);
-       
-//         return a.splice(index,1);
-    
+//     console.log(arr);
+//     let shortestWord = arr[0].length;
+//     for (const element of arr) {
+        
+//         if (element.length < shortestWord) {
+//              shortestWord = element.length;
+//         }
+        
 //     }
-//     return a;
+//     return shortestWord;
+// }
+
+// option 2
+
+// function findShort(s){
+//      return Math.min(...s.split(" ").map (s => s.length));
+    
+// }
+
+
+
+// console.log(findShort("ProofOfStake Factom Factom LiteCoin Ethereum Ripple Classic BTC Dash ProofOfWork Steem BTC 21inc Mine BTC Steem LiteCoin"));
+
+
+
+// function sortByLength(array) {
+//     array.sort(function (a, b) { return a.length - b.length }); 
+//     return array;
 // };
-//  console.log(arrayDiff([3, 4], [3]));
 
+// console.log(sortByLength(["Beg", "Life", "I", "To"]));
 
+// function removeSmallest(numbers) {
+//     const numbersArray = [...numbers];
+    
+//     const smallest = Math.min(...numbersArray);
+    
+//     const indexOfNumber = numbersArray.indexOf(smallest);
+//     numbersArray.splice(indexOfNumber, 1);
+//     return numbersArray;
+// }
+// console.log(removeSmallest([4, 2, 3, 1, 5]));
