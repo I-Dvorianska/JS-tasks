@@ -1853,3 +1853,185 @@
 // console.log(mango.blacklistedEmails); // 'poly@mail.com'
 // console.log(mango.isBlacklisted('mango@mail.com')); //  false
 // console.log(mango.isBlacklisted('poly@mail.com')); // true
+
+// MODULE 6
+
+// 1
+
+// function calculateTotalPrice(orderedItems) {
+//   let totalPrice = 0;
+//   // Пиши код ниже этой строки
+
+//   orderedItems.forEach(i => {
+//     totalPrice += i
+// });
+  
+
+//   // Пиши код выше этой строки
+//   return totalPrice;
+// }
+
+// 2
+
+// function filterArray(numbers, value) {
+//     const filteredNumbers = [];
+//     // Пиши код ниже этой строки
+  
+    
+//     numbers.forEach(el => {
+//       if (el > value) {
+//         filteredNumbers.push(el);
+//       }
+//     })
+  
+//     // Пиши код выше этой строки
+//     return filteredNumbers;
+//   }
+
+// 3
+
+// function getCommonElements(firstArray, secondArray) {
+//     const commonElements = [];
+//     // Пиши код ниже этой строки
+  
+    
+//     firstArray.forEach( i => {
+//       if (secondArray.includes(i)) {
+//         commonElements.push(i);
+//       }
+//     })
+  
+//     return commonElements;
+//     // Пиши код выше этой строки
+//   }
+
+// 4
+
+
+// const calculateTotalPrice = (quantity, pricePerItem) => quantity * pricePerItem;
+
+// 5
+
+
+// const calculateTotalPrice = (quantity, pricePerItem)=> 
+//   // Пиши код выше этой строки
+//   quantity * pricePerItem;
+
+// 6
+
+// // Пиши код ниже этой строки
+// const calculateTotalPrice = orderedItems=> {
+//   let totalPrice = 0;
+
+//   orderedItems.forEach(item => totalPrice += item);
+
+//   return totalPrice;
+// }
+
+// 7
+
+// // Пиши код ниже этой строки
+// const filterArray = (numbers, value) => {
+//     const filteredNumbers = [];
+  
+//     numbers.forEach(number => {
+//       if (number > value) {
+//         filteredNumbers.push(number);
+//       }
+//     });
+  
+//     // Пиши код выше этой строки
+//     return filteredNumbers;
+//   }
+
+// 8
+
+// // Пиши код ниже этой строки
+// const getCommonElements = (firstArray, secondArray) => {
+//     const commonElements = [];
+  
+//     firstArray.forEach(element => {
+//       if (secondArray.includes(element)) {
+//         commonElements.push(element);
+//       }
+//     });
+  
+//     // Пиши код выше этой строки
+//     return commonElements;
+//   }
+
+// 9
+
+// function changeEven(numbers, value) {
+//     // Пиши код ниже этой строки
+//   const newArr = [];
+  
+//     numbers.forEach(number => {
+//         number % 2 === 0 ? newArr.push(number + value) : newArr.push(number);
+//     })
+//         return newArr;
+//     // Пиши код выше этой строки
+// }
+//   console.log(changeEven([1, 2, 3, 4, 5], 10));
+
+// 10
+
+// const planets = ['Земля', 'Марс', 'Венера', 'Юпитер'];
+// // Пиши код ниже этой строки
+// const planetsLengths = planets.map(planet => planet.length);
+
+// 11
+
+// const books = [
+//     { title: 'Последнее королевство', author: 'Бернард Корнуэлл', rating: 8.38 },
+//     { title: 'На берегу спокойных вод', author: 'Роберт Шекли', rating: 8.51 },
+//     { title: 'Сон смешного человека', author: 'Федор Достоевский', rating: 7.75 },
+//     { title: 'Красна как кровь', author: 'Ли Танит', rating: 7.94 },
+//     { title: 'Враг Божий', author: 'Бернард Корнуэлл', rating: 8.67 }
+//   ];
+//   // Пиши код ниже этой строки
+  
+//   const titles = books.map(book => book.title);
+
+// 12
+
+// const books = [
+//     {
+//       title: 'Последнее королевство',
+//       author: 'Бернард Корнуэлл',
+//       genres: ['приключения', 'историческое']
+//     },
+//     {
+//       title: 'На берегу спокойных вод',
+//       author: 'Роберт Шекли',
+//       genres: ['фантастика']
+//     },
+//     {
+//       title: 'Красна как кровь',
+//       author: 'Ли Танит',
+//       genres: ['ужасы', 'мистика']
+//     }
+//   ];
+//   // Пиши код ниже этой строки
+  
+//   const genres = books.flatMap(book => book.genres);
+
+// 13
+
+
+// const getUserNames = users => users.map(user => user.name);
+
+// 14
+
+// const getUserEmails = users => users.map(user => user.email);
+
+// 15
+
+// const numbers = [17, 24, 82, 61, 36, 18, 47, 52, 73];
+// // Пиши код ниже этой строки
+
+// const evenNumbers = numbers.filter(number => number % 2 === 0);
+// const oddNumbers = numbers.filter(number => number % 2 !== 0);
+
+16
+

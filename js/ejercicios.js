@@ -120,3 +120,22 @@
 //     return numbersArray;
 // }
 // console.log(removeSmallest([4, 2, 3, 1, 5]));
+
+
+
+
+// function filter_list(l) {
+//    return l.filter(element => typeof element === 'number');
+// }
+
+// console.log(filter_list([1, 2, 'a', 'b']));
+// console.log(filter_list([1,'a','b',0,15]));
+
+// function stray(numbers) {
+//     numbers.reduce((newArr, el) => {
+//         if (newArr[el] !== el) newArr.push(el);
+//         return newArr;
+//     }, [])
+    
+// }
+// console.log(stray([1, 1, 2]));
