@@ -148,3 +148,21 @@
 
 // console.log(descendingOrder(1021));
 // console.log(descendingOrder(123456789));
+
+// function friend(friends) {
+
+//     return friends.filter(friend => friend.length === 4)
+
+
+
+
+//     const names = [];
+
+//     friends.forEach(friend => {
+//         if (friend.length === 4) {
+//             names.push(friend);
+//         }
+//     });
+    // return names;
+//  }
+// console.log(friend(["Ryan", "Kieran", "Mark"]));
