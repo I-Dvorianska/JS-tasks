@@ -1,7 +1,6 @@
-'use strict';
+"use strict";
 
 // MODULE 1
-
 
 // function getSubscriptionPrice(type) {
 //   let price;
@@ -9,8 +8,8 @@
 //   // Пиши код ниже этой строки
 
 //  switch (type) { // Дополни эту строку
-//     case 'starter' // Дополни эту строку
-//       :price = 0; // porque se pone dos puntos antes de price
+//     case 'starter': // Дополни эту строку
+//       price = 0; //
 //       break;
 
 //     case 'professional': // Дополни эту строку
@@ -25,9 +24,6 @@
 //   // Пиши код выше этой строки
 //   return price;
 // }
-
-
-
 
 // function getShippingCost(country) {
 //   let message;
@@ -48,7 +44,6 @@
 //   return message;
 // }
 
-
 // function getSubstring(string, length) {
 //   const substring = string.slice(0, [length]); // Дополни эту строку
 
@@ -68,13 +63,12 @@
 //   return result;
 // }
 
-
 // function checkForSpam(message) {
 //   let result;
 
 //  let messagenormalize = message.toLowerCase();
 //  if (messagenormalize.includes('spam') || messagenormalize.includes('sale')) {
-//   result = true; 
+//   result = true;
 //  } else {
 //  result = false;
 //  }
@@ -87,13 +81,12 @@
 // 2
 
 // function checkPassword(password) {
-//   const ADMIN_PASSWORD = 'jqueryismyjam'; 
+//   const ADMIN_PASSWORD = 'jqueryismyjam';
 
 //  if (password === ADMIN_PASSWORD) {
 //    return 'Добро пожаловать!'}
 //    return 'Доступ запрещен, неверный пароль!';
 // }
-
 
 // 3
 
@@ -101,13 +94,12 @@
 
 //   if (ordered === 0) {
 //     return 'В заказе еще нет товаров';
-//   } 
+//   }
 //   if (ordered > available) {
 //     return 'Слишком большой заказ, на складе недостаточно товаров!';
-//   } 
+//   }
 //     return 'Заказ оформлен, с вами свяжется менеджер';
 // }
-
 
 // 4
 
@@ -116,7 +108,6 @@
 // const firstElement = fruits[0];
 // const secondElement = fruits[1];
 // const lastElement = fruits[fruits.length-1];
-
 
 // 9
 
@@ -133,7 +124,6 @@
 // return newArray;
 //     // Пиши код выше этой строки
 //   }
-
 
 // // сумма четных чисел
 
@@ -165,7 +155,6 @@
 
 // console.log(splitMessage('Buenos dias',(' ')))
 
-
 // 11
 
 // Сервису гравировки украшений нужна функция,
@@ -191,7 +180,6 @@
 
 // console.log(calculateEngravingPrice('te quiero', 5));
 
-
 // 12
 
 // function makeStringFromArray(array, delimeter) {
@@ -215,8 +203,6 @@
 
 // console.log(slugify('me voy a casa'));
 
-
-
 // 14
 
 // const fruits = ['яблоко', 'слива', 'груша', 'апельсин', 'банан'];
@@ -230,8 +216,7 @@
 // const oldClients = ['Манго', 'Аякс', 'Поли', 'Киви'];
 // const newClients = ['Персик', 'Хьюстон'];
 
-// const allClients = oldClients.concat(newClients); 
-
+// const allClients = oldClients.concat(newClients);
 
 // 16
 
@@ -257,7 +242,6 @@
 // }
 
 // 18
-
 
 // function calculateTotal(number) {
 
@@ -305,9 +289,7 @@
 
 //    const stringArray = string.split(' ');
 
-
 //     for (let i = 0; i < stringArray.length; i += 1) {
-
 
 //       if (stringArray[i].length > longestWord.length) {
 //           longestWord = stringArray[i];
@@ -348,11 +330,8 @@
 
 // 24
 
-
 // function checkFruit(fruit) {
 //   const fruits = ['яблоко', 'слива', 'груша', 'апельсин'];
-
-
 
 //   return fruits.includes(fruit); // Дополни эту строку
 // }
@@ -394,7 +373,6 @@
 //   const filteredNumbers = [];
 
 //   for (const number of numbers) {
-
 
 //     if (number > value) {
 //       filteredNumbers.push(number);
@@ -445,14 +423,12 @@
 // function findNumber(start, end, divisor) {
 //   // Пиши код ниже этой строки
 
-
 //   for (let i = start; i < end; i += 1) {
 //     if (i % divisor === 0) {
 
 //       return i;
 //     }
 //   }
-
 
 //   // Пиши код выше этой строки
 // }
@@ -471,12 +447,6 @@
 //   // Пиши код выше этой строки
 // }
 
-
-
-
-
-
-
 // MODULE 3
 
 // 1
@@ -489,7 +459,7 @@
 //   tags: ['premium', 'promoted', 'top'],
 // };
 
-2
+2;
 
 // const apartment = {
 //     imgUrl: 'https://via.placeholder.com/640x480',
@@ -669,15 +639,15 @@
 
 // function countProps(object) {
 //   let propCount = 0;
- 
+
 //     for (const key in object) {
 //         if (object.hasOwnProperty([key]) === false) {
-//             
+//
 //         } else {
 //             propCount = Object.keys(object).length;
-//         }  
+//         }
 //     }
-    
+
 //   return propCount;
 // }
 
@@ -695,10 +665,9 @@
 // const keys = Object.keys(apartment);
 
 // for (const key of keys) {
-    
-    
+
 //     values.push(apartment[key]);
-    
+
 // }
 // console.log(values);
 
@@ -709,9 +678,9 @@
 //   let propCount = 0;
 
 //   for (const key of Object.keys(object)) {
-    
+
 //       propCount += 1;
-    
+
 //   }
 
 //   return propCount;
@@ -735,7 +704,7 @@
 //   let totalSalary = 0;
 //   // Пиши код ниже этой строки
 //     for (const key of Object.keys(salaries)) {
-        
+
 //         totalSalary += salaries[key];
 // }
 //   // Пиши код выше этой строки
@@ -774,11 +743,11 @@
 
 // function getProductPrice(productName) {
 //     for (const product of products) {
-         
+
 //         if (product.name === productName) {
-           
+
 //             return product.price;
-//         } 
+//         }
 //     }
 // return null;
 // }
@@ -800,7 +769,7 @@
 
 //     for (const product of products) {
 //         const keys = Object.keys(product);
-       
+
 //         for (const key of keys) {
 //             console.log(key);
 //             if (key === propName) {
@@ -845,7 +814,6 @@
 // // Пиши код ниже этой строки
 // const { yesterday, tomorrow, today } = highTemperatures;
 
-
 // // Пиши код выше этой строки
 // const meanTemperature = (yesterday + today + tomorrow) / 3;
 
@@ -860,7 +828,6 @@
 // // Пиши код ниже этой строки
 // const { yesterday, tomorrow, today, icon = 'https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg' } = highTemperatures;
 
-
 // // Пиши код выше этой строки
 // const meanTemperature = (yesterday + today + tomorrow) / 3;
 
@@ -873,7 +840,6 @@
 // };
 // // Пиши код ниже этой строки
 // const { yesterday: highYesterday, today: highToday, tomorrow: highTomorrow, icon: highIcon = 'https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg' } = highTemperatures;
-
 
 // // Пиши код выше этой строки
 // const meanTemperature = (highYesterday + highToday + highTomorrow) / 3;
@@ -919,7 +885,6 @@
 // // Пиши код ниже этой строки
 // function calculateMeanTemperature(forecast) {
 //   const { today: { low: todayLow, high: todayHigh }, tomorrow: { low: tomorrowLow, high: tomorrowHigh}} = forecast;
-  
 
 //   // Пиши код выше этой строки
 //   return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
@@ -976,7 +941,7 @@
 // Пиши код ниже этой строки
 // function add(...args) {
 //   let sum = 0;
-  
+
 //   for(const number of args) {
 //   sum += number;
 //   }
@@ -1000,7 +965,7 @@
 // }
 
 // 33
- 
+
 // // Пиши код ниже этой строки
 // function findMatches(array,...args) {
 //   const matches = []; // Не изменяй эту строку
@@ -1029,7 +994,7 @@
 //   removeBook(bookName) {
 //   return `Удаляем книгу ${bookName}`;
 //   },
-  
+
 //   updateBook(oldName, newName) {
 //   return `Обновляем книгу ${oldName} на ${newName}`;
 //   }
@@ -1116,13 +1081,13 @@
 //   ],
 //     // Пиши код ниже этой строки
 //      getPotions() {
-    
+
 //     return this.potions;
 //   },
 
 //     addPotion(potionName) {
 //       for (const element of this.potions) {
-  
+
 //       if (element === potionName) {
 //         return `Зелье ${potionName} уже есть в инвентаре!`;
 //       }
@@ -1132,11 +1097,10 @@
 //     },
 //      removePotion(potionName) {
 
-    
 //      for (const element of this.potions) {
 //        const potionIndex = this.potions.indexOf(element);
 //        const elementName = element.name;
-  
+
 //        if (elementName === potionName) {
 //          return this.potions.splice(potionIndex, 1);
 //    }
@@ -1145,7 +1109,7 @@
 //      return `Зелья ${potionName} нет в инвентаре!`;
 //    },
 //    updatePotionName(oldName, newName) {
-  
+
 //      for (const element of this.potions) {
 //        const potionIndex = this.potions.indexOf(element);
 //        if (element.name === oldName) {
@@ -1154,18 +1118,15 @@
 //      }
 //      return `Зелья ${oldName} нет в инвентаре!`;
 //    },
- 
-//  };
-  
 
-  
+//  };
+
 //   // Пиши код выше этой строки
 
 // console.log(atTheOldToad.getPotions());
 // console.log(atTheOldToad.addPotion({ name: 'Невидимка', price: 620 }));
 // console.log(atTheOldToad.removePotion('Дыхание дракона'));
 // console.log(atTheOldToad.updatePotionName('Дыхание дракона', 'Полиморф'));
-
 
 // MODULE 4
 
@@ -1215,7 +1176,7 @@
 // const pizzaPalace = {
 //   pizzas: ['Ультрасыр', 'Аль Копчино', 'Четыре нарезона'],
 //     order(pizzaName, onSuccess, onError) {
-        
+
 //       if (this.pizzas.includes(pizzaName)) {
 //   return makePizza(pizzaName);
 //   }
@@ -1260,7 +1221,6 @@
 //   // Пиши код выше этой строки
 // };
 
-
 // 6
 
 // const customer = {
@@ -1293,7 +1253,6 @@
 // customer.addOrder(5000, 'Steak');
 // console.log(customer.getBalance()); // 19750
 // console.log(customer.getOrders()); // ['Burger', 'Pizza', 'Salad', 'Steak']
-
 
 // 7
 
@@ -1379,16 +1338,15 @@
 // // Почта kiwi@mail.uk добавлена в рассылку.
 
 // console.log(service.mailingList);
-// /* ['mango@mail.com', 
-//     'poly@hotmail.de', 
-//     'ajax@jmail.net', 
+// /* ['mango@mail.com',
+//     'poly@hotmail.de',
+//     'ajax@jmail.net',
 //     'kiwi@mail.uk']*/
 // const secondInvoke = logAndInvokeAction('poly@hotmail.de', service.unsubscribe.bind(service));
 // console.log(secondInvoke);
 // // Почта poly@hotmail.de удалена из рассылки.
 
 // console.log(service.mailingList); // ['mango@mail.com', 'ajax@jmail.net', 'kiwi@mail.uk']
-
 
 // MODULE 5
 
@@ -1449,7 +1407,7 @@
 //   this.brand = brand;
 //   this.model = model;
 //   this.price = price;
-  
+
 // }
 
 // Car.prototype.getPrice = function() {
@@ -1477,7 +1435,6 @@
 // this.items.splice(itemIndex,1);
 // }
 
-
 // // Пиши код выше этой строки
 // const storage = new Storage(['Нанитоиды', 'Пролонгер', 'Антигравитатор']);
 // console.log(storage.getItems()); // ["Нанитоиды", "Пролонгер", "Антигравитатор"]
@@ -1500,14 +1457,13 @@
 // }
 
 // StringBuilder.prototype.padStart = function (str) {
-    
+
 //     return this.value = str + this.value;
 // }
 
 // StringBuilder.prototype.padBoth = function (str) {
 //     return this.value = str + this.value + str;
 // }
-
 
 // // Пиши код выше этой строки
 // const builder = new StringBuilder('.');
@@ -1525,8 +1481,6 @@
 
 // 9
 
-
-
 // class Car {
 // constructor ({ brand, model, price }) {
 // this.brand = brand;
@@ -1543,11 +1497,11 @@
 //     this.model = model;
 //     this.price = price;
 //   }
-  
+
 //   getPrice() {
 //   return this.price;
 //   }
-  
+
 //   changePrice(newPrice) {
 //   return this.price = newPrice;
 //   }
@@ -1562,11 +1516,11 @@
 //     this.model = model;
 //     this.price = price;
 //   }
-  
+
 //   getBrand() {
 //   return this.#brand;
 //   }
-  
+
 //   changeBrand(newBrand) {
 //   this.#brand = newBrand;
 //   }
@@ -1576,7 +1530,7 @@
 
 // class Storage {
 // #items;
-  
+
 //   constructor (items) {
 // this.#items = items;
 // }
@@ -1610,11 +1564,11 @@
 //   constructor (baseValue){
 //   this._value = baseValue;
 //   }
-  
+
 //   getValue () {
 //   return this._value;
 // };
-  
+
 //   padEnd(str) {
 //   this._value += str;
 // };
@@ -1626,8 +1580,6 @@
 //   this.padEnd(str);
 // };
 // };
-
-
 
 // // Пиши код выше этой строки
 // const builder = new StringBuilder('.');
@@ -1784,7 +1736,6 @@
 //     SUPERUSER: 'superuser'
 //   };
 
-  
 //   // Пиши код выше этой строки
 // }
 
@@ -1831,7 +1782,7 @@
 //   blacklist(email) {
 //   this.blacklistedEmails.push(email);
 //   }
-  
+
 //   isBlacklisted(email) {
 //   if(this.blacklistedEmails.includes(email)) {
 //   return true;
@@ -1865,7 +1816,6 @@
 //   orderedItems.forEach(i => {
 //     totalPrice += i
 // });
-  
 
 //   // Пиши код выше этой строки
 //   return totalPrice;
@@ -1876,14 +1826,13 @@
 // function filterArray(numbers, value) {
 //     const filteredNumbers = [];
 //     // Пиши код ниже этой строки
-  
-    
+
 //     numbers.forEach(el => {
 //       if (el > value) {
 //         filteredNumbers.push(el);
 //       }
 //     })
-  
+
 //     // Пиши код выше этой строки
 //     return filteredNumbers;
 //   }
@@ -1893,27 +1842,24 @@
 // function getCommonElements(firstArray, secondArray) {
 //     const commonElements = [];
 //     // Пиши код ниже этой строки
-  
-    
+
 //     firstArray.forEach( i => {
 //       if (secondArray.includes(i)) {
 //         commonElements.push(i);
 //       }
 //     })
-  
+
 //     return commonElements;
 //     // Пиши код выше этой строки
 //   }
 
 // 4
 
-
 // const calculateTotalPrice = (quantity, pricePerItem) => quantity * pricePerItem;
 
 // 5
 
-
-// const calculateTotalPrice = (quantity, pricePerItem)=> 
+// const calculateTotalPrice = (quantity, pricePerItem)=>
 //   // Пиши код выше этой строки
 //   quantity * pricePerItem;
 
@@ -1933,13 +1879,13 @@
 // // Пиши код ниже этой строки
 // const filterArray = (numbers, value) => {
 //     const filteredNumbers = [];
-  
+
 //     numbers.forEach(number => {
 //       if (number > value) {
 //         filteredNumbers.push(number);
 //       }
 //     });
-  
+
 //     // Пиши код выше этой строки
 //     return filteredNumbers;
 //   }
@@ -1949,13 +1895,13 @@
 // // Пиши код ниже этой строки
 // const getCommonElements = (firstArray, secondArray) => {
 //     const commonElements = [];
-  
+
 //     firstArray.forEach(element => {
 //       if (secondArray.includes(element)) {
 //         commonElements.push(element);
 //       }
 //     });
-  
+
 //     // Пиши код выше этой строки
 //     return commonElements;
 //   }
@@ -1965,7 +1911,7 @@
 // function changeEven(numbers, value) {
 //     // Пиши код ниже этой строки
 //   const newArr = [];
-  
+
 //     numbers.forEach(number => {
 //         number % 2 === 0 ? newArr.push(number + value) : newArr.push(number);
 //     })
@@ -1990,7 +1936,7 @@
 //     { title: 'Враг Божий', author: 'Бернард Корнуэлл', rating: 8.67 }
 //   ];
 //   // Пиши код ниже этой строки
-  
+
 //   const titles = books.map(book => book.title);
 
 // 12
@@ -2013,11 +1959,10 @@
 //     }
 //   ];
 //   // Пиши код ниже этой строки
-  
+
 //   const genres = books.flatMap(book => book.genres);
 
 // 13
-
 
 // const getUserNames = users => users.map(user => user.name);
 
@@ -2141,94 +2086,93 @@
 //     }
 // ]
 
-
 // Пиши код ниже этой строки
 // const getUsersWithEyeColor = (users, color) => {
 //     const bla = users.filter(user => user.eyeColor === color);
 //     return bla;
-    
+
 // }
 // console.log(getUsersWithEyeColor(users , 'brown'));
 
 // 19
 
-const friendsList = [
-  {
-    name: 'Moore Hensley',
-    email: 'moorehensley@indexia.com',
-    eyeColor: 'blue',
-    friends: ['Sharron Pace'],
-    isActive: false,
-    balance: 2811,
-    gender: 'male',
-    age: 37
-  },
-  {
-    name: 'Sharlene Bush',
-    email: 'sharlenebush@tubesys.com',
-    eyeColor: 'blue',
-    friends: ['Briana Decker', 'Sharron Pace'],
-    isActive: true,
-    balance: 3821,
-    gender: 'female',
-    age: 34
-  },
-  {
-    name: 'Ross Vazquez',
-    email: 'rossvazquez@xinware.com',
-    eyeColor: 'green',
-    friends: ['Marilyn Mcintosh', 'Padilla Garrison', 'Naomi Buckner'],
-    isActive: false,
-    balance: 3793,
-    gender: 'male',
-    age: 24
-  },
-  {
-    name: 'Elma Head',
-    email: 'elmahead@omatom.com',
-    eyeColor: 'green',
-    friends: ['Goldie Gentry', 'Aisha Tran'],
-    isActive: true,
-    balance: 2278,
-    gender: 'female',
-    age: 21
-  },
-  {
-    name: 'Carey Barr',
-    email: 'careybarr@nurali.com',
-    eyeColor: 'blue',
-    friends: ['Jordan Sampson', 'Eddie Strong'],
-    isActive: true,
-    balance: 3951,
-    gender: 'male',
-    age: 27
-  },
-  {
-    name: 'Blackburn Dotson',
-    email: 'blackburndotson@furnigeer.com',
-    eyeColor: 'brown',
-    friends: ['Jacklyn Lucas', 'Linda Chapman'],
-    isActive: false,
-    balance: 1498,
-    gender: 'male',
-    age: 38
-  },
-  {
-    name: 'Sheree Anthony',
-    email: 'shereeanthony@kog.com',
-    eyeColor: 'brown',
-    friends: ['Goldie Gentry', 'Briana Decker'],
-    isActive: true,
-    balance: 2764,
-    gender: 'female',
-    age: 39
-  }
-]
+// const friendsList = [
+//   {
+//     name: "Moore Hensley",
+//     email: "moorehensley@indexia.com",
+//     eyeColor: "blue",
+//     friends: ["Sharron Pace"],
+//     isActive: false,
+//     balance: 2811,
+//     gender: "male",
+//     age: 37,
+//   },
+//   {
+//     name: "Sharlene Bush",
+//     email: "sharlenebush@tubesys.com",
+//     eyeColor: "blue",
+//     friends: ["Briana Decker", "Sharron Pace"],
+//     isActive: true,
+//     balance: 3821,
+//     gender: "female",
+//     age: 34,
+//   },
+//   {
+//     name: "Ross Vazquez",
+//     email: "rossvazquez@xinware.com",
+//     eyeColor: "green",
+//     friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//     isActive: false,
+//     balance: 3793,
+//     gender: "male",
+//     age: 24,
+//   },
+//   {
+//     name: "Elma Head",
+//     email: "elmahead@omatom.com",
+//     eyeColor: "green",
+//     friends: ["Goldie Gentry", "Aisha Tran"],
+//     isActive: true,
+//     balance: 2278,
+//     gender: "female",
+//     age: 21,
+//   },
+//   {
+//     name: "Carey Barr",
+//     email: "careybarr@nurali.com",
+//     eyeColor: "blue",
+//     friends: ["Jordan Sampson", "Eddie Strong"],
+//     isActive: true,
+//     balance: 3951,
+//     gender: "male",
+//     age: 27,
+//   },
+//   {
+//     name: "Blackburn Dotson",
+//     email: "blackburndotson@furnigeer.com",
+//     eyeColor: "brown",
+//     friends: ["Jacklyn Lucas", "Linda Chapman"],
+//     isActive: false,
+//     balance: 1498,
+//     gender: "male",
+//     age: 38,
+//   },
+//   {
+//     name: "Sheree Anthony",
+//     email: "shereeanthony@kog.com",
+//     eyeColor: "brown",
+//     friends: ["Goldie Gentry", "Briana Decker"],
+//     isActive: true,
+//     balance: 2764,
+//     gender: "female",
+//     age: 39,
+//   },
+// ];
 
 // const getUsersWithAge = (users, minAge, maxAge) => {
 //     return users.filter(user => user.age < maxAge && user.age > minAge
 //     );
-   
+
 // };
 // console.log(getUsersWithAge(friendsList, 20, 30));
 
@@ -2244,21 +2188,21 @@ const friendsList = [
 
 // const getFriends = (users) => {
 //     const friends = users.flatMap(user => user.friends);
-    
-//     return friends.filter((friend, index, self) => self.indexOf(friend) === index )  
+
+//     return friends.filter((friend, index, self) => self.indexOf(friend) === index )
 // };
 // console.log(getFriends(friendsList));
 
 // 22
 
 // const getActiveUsers = (users) => {
-//  return users.filter(user => user.isActive === true) 
+//  return users.filter(user => user.isActive === true)
 // };
 
 // 23
 
 // const getInactiveUsers = (users) => {
-//   return users.filter(user => user.isActive === false) 
+//   return users.filter(user => user.isActive === false)
 // };
 
 // 24
@@ -2279,7 +2223,7 @@ const friendsList = [
 // 25
 
 // const getUserWithEmail = (users, email) => {
-//   return users.find(user => user.email === email) 
+//   return users.find(user => user.email === email)
 // };
 
 // 26
@@ -2301,7 +2245,7 @@ const friendsList = [
 // 27
 
 // const isEveryUserActive = (users) => {
-//   return users.every(element => element.isActive === true) 
+//   return users.every(element => element.isActive === true)
 // };
 
 // 28
@@ -2323,7 +2267,7 @@ const friendsList = [
 // 29
 
 // const isAnyUserActive = users => {
-//   return users.some(user => user.isActive === true) 
+//   return users.some(user => user.isActive === true)
 // };
 
 // 30
@@ -2354,7 +2298,7 @@ const friendsList = [
 
 // const totalAveragePlaytimePerGame = players.reduce((acc, player) => {
 //   return acc + player.playtime / player.gamesPlayed;
-  
+
 // }, 0);
 
 // console.log(totalAveragePlaytimePerGame);
@@ -2362,8 +2306,8 @@ const friendsList = [
 // 32
 
 // const calculateTotalBalance = users => {
-//   return users.reduce((total, user) => total += user.balance,0) 
-  
+//   return users.reduce((total, user) => total += user.balance,0)
+
 // };
 // console.log(calculateTotalBalance([
 //   {
@@ -2387,17 +2331,14 @@ const friendsList = [
 
 // 33
 
-
-
 // const getTotalFriendCount = users => {
 // //   const friendsArr = [];
-  
+
 //   return users.reduce((total, user) => {
 // //     total = friendsArr.push(...user.friends);
 // //     console.log(friendsArr);
 // //     return total;
-    
-    
+
 //     or
 //     return total + user.friends.length; or this;
 //   }
@@ -2438,9 +2379,9 @@ const friendsList = [
 //     'Говард Лавкрафт'
 //   ];
 //   // Пиши код ниже этой строки
-  
+
 //   const authorsInAlphabetOrder = [...authors].sort((a,b) => a.localeCompare(b));
-  
+
 //   const authorsInReversedOrder = [...authors].sort((a,b) => b.localeCompare(a));
 
 // 37
@@ -2467,23 +2408,22 @@ const friendsList = [
 // console.log(sortedByAscendingRating);
 // console.log(sortedByDescentingRating);
 
-
 // 38
 
 // const sortByAscendingBalance = users => {
-//   return [...users].sort((a,b) => a.balance - b.balance) 
+//   return [...users].sort((a,b) => a.balance - b.balance)
 // };
 
 // 39
 
 // const sortByDescendingFriendCount = users => {
-//   return [...users].sort((a, b) => b.friends.length - a.friends.length) 
+//   return [...users].sort((a, b) => b.friends.length - a.friends.length)
 // };
 
 // 40
 
 // const sortByName = users => {
-//   return [...users].sort((a, b) => a.name.localeCompare(b.name)) 
+//   return [...users].sort((a, b) => a.name.localeCompare(b.name))
 // };
 
 // 41
