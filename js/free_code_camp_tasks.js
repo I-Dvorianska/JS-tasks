@@ -95,3 +95,58 @@ function booWho(bool) {
 }
 
 // console.log(booWho(null));
+
+function titleCase(str) {
+  const updateString = str.toLowerCase();
+  return updateString
+    .split(" ")
+    .map((el) => {
+      return el.replace(el[0], el[0].toUpperCase());
+    })
+    .join(" ");
+}
+
+// console.log(titleCase("I'm a little tea pot"));
+
+function frankenSplice(arr1, arr2, n) {
+  const newArr = [...arr2];
+  newArr.splice(n, 0, ...arr1);
+  return newArr;
+}
+
+// console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
+
+function bouncer(arr) {
+  return arr.filter((el) => Boolean(el) === true);
+}
+
+// console.log(
+//   bouncer([7, "ate", "", false, 9]),
+//   bouncer([false, null, 0, NaN, undefined, ""])
+// );
+
+function getIndexToIns(arr, num) {
+  const newArr = [...arr, num].sort((a, b) => a - b);
+
+  return newArr.indexOf(num);
+}
+
+// console.log(getIndexToIns([40, 60], 50));
+
+function mutation(arr) {
+  const newArr = arr.map((string) => string.toLowerCase());
+  return [].every.call(newArr[1], (item) => newArr[0].includes(item));
+}
+
+// console.log(mutation(["Hello", "hey"]), mutation(["Mary", "Aarmy"]));
+
+function chunkArrayInGroups(arr, size) {
+  let subArray = [];
+
+  for (let i = 0; i < Math.ceil(arr.length / size); i += 1) {
+    subArray[i] = arr.slice(i * size, i * size + size);
+  }
+  return subArray;
+}
+
+// console.log(chunkArrayInGroups(["a", "b", "c", "d"], 2));
